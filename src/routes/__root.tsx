@@ -1,7 +1,7 @@
 // __root.tsx
 import { createRootRoute, Outlet } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
-import Box from '../components/Box/Box'
+import BackgroundBox from '../components/BackgroundBox/BackgroundBox'
 import "../index.css"
 import { useLocation } from '@tanstack/react-router'
 import GradientBackground from '../components/GradientBackground'
@@ -12,9 +12,9 @@ export const Route = createRootRoute({
     return (
       <>
        <GradientBackground />
-        <Box path={pathname} key={pathname}>
+        <BackgroundBox path={pathname} key={pathname}>
           <Outlet />
-        </Box>
+        </BackgroundBox>
         <TanStackRouterDevtools />
       </>
     )

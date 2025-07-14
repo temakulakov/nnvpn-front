@@ -7,13 +7,13 @@ type BoxProps = {
   path: string
 }
 
-export default function Box({ children, path }: BoxProps) {
+export default function BackgroundBox({ children, path }: BoxProps) {
   const isRoot = path === '/'
   const isSubscribe = path === '/subscribe'
   const isCenter = !isRoot && !isSubscribe
   const background = '#00000061'
   // const background = 'white'
-  const height = isRoot ? '40vh' : isSubscribe ? '60vh' : '60vh'
+  const height = isRoot ? '40vh' : isSubscribe ? 'fill-content' : 'fill-content'
   return (
     <motion.div
       className={styles.boxContainer}

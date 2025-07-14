@@ -1,0 +1,37 @@
+{
+  "index" : {
+    "buttons" : {
+      "subscribe": "Подписка",
+      "account": "Мой аккаунт",
+      "help": "Помощь",
+      "language": "Язык"
+    },
+    "text" : {
+      "name": "Тема",
+      "time_to": "ewfwef"
+    }
+  },
+  "subscribe" : {
+    "text": {
+      "title" : "Покупка подписки",
+      "description" : "Выберите количество дней и пользователей в подписку",
+      "devices" : "Количество устройств: "
+    },
+    "prices": {
+      "1_price" : "1 Месяц",
+      "2_price" : "3 Месяца",
+      "3_price" : "6 Месяцев",
+      "4_price" : "1 Год"
+    }
+  },
+  "account" : {
+    "share_confs_link" : "Ссылка на подключение",
+    "user_list": {
+        "devices_add" : "Докупить устройства",
+        "transactions_history" : "История транзакций",
+        "referals" : "Мои рефералы",
+        "using_rules" : "Правила использования",
+        "user_agre" : "Пользовательское соглашение"
+    }
+  }
+}

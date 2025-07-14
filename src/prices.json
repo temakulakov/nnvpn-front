@@ -1,0 +1,106 @@
+[
+    {
+        "index": 0,
+        "text": "1_price",
+        "devices": [
+            {
+                "index": 0,
+                "cost": 100
+            },
+            {
+                "index": 1,
+                "cost": 150
+            },
+            {
+                "index": 2,
+                "cost": 200
+            },
+            {
+                "index": 3,
+                "cost": 250
+            },
+            {
+                "index": 3,
+                "cost": 250
+            }
+        ]
+    },
+    {
+        "index": 1,
+        "text": "2_price",
+        "devices": [
+            {
+                "index": 0,
+                "cost": 200
+            },
+            {
+                "index": 1,
+                "cost": 300
+            },
+            {
+                "index": 2,
+                "cost": 400
+            },
+            {
+                "index": 3,
+                "cost": 500
+            },
+            {
+                "index": 3,
+                "cost": 250
+            }
+        ]
+    },
+    {
+        "index": 2,
+        "text": "3_price",
+        "devices": [
+            {
+                "index": 0,
+                "cost": 500
+            },
+            {
+                "index": 1,
+                "cost": 600
+            },
+            {
+                "index": 2,
+                "cost": 700
+            },
+            {
+                "index": 3,
+                "cost": 800
+            },
+            {
+                "index": 3,
+                "cost": 250
+            }
+        ]
+    },
+    {
+        "index": 3,
+        "text": "4_price",
+        "devices": [
+            {
+                "index": 0,
+                "cost": 900
+            },
+            {
+                "index": 1,
+                "cost": 1000
+            },
+            {
+                "index": 2,
+                "cost": 1100
+            },
+            {
+                "index": 3,
+                "cost": 1200
+            },
+            {
+                "index": 3,
+                "cost": 250
+            }
+        ]
+    }
+]
