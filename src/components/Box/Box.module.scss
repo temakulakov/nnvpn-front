@@ -1,0 +1,14 @@
+.boxContainer {
+  width: calc(100% - 20px);
+  max-width: 600px;
+  padding: 10px;
+  z-index: 100;
+}
+
+.boxInner {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 16px;
+}
